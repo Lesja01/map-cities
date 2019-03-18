@@ -1,0 +1,19 @@
+<div>
+  <h3>Вывод самого северного/южного/западного/восточного города</h3>
+  <button onclick=alert(N)>northernmost</button>
+  <button onclick=alert(S)>southernmost</button>
+  <button onclick=alert(E)>easternmost</button>
+  <button onclick=alert(W)>westernmost</button>
+</div>
+<div>
+  <h3>Ближайший город к заданным координатам</h3>
+  <form id="2" name="parametr">
+    <input type="text" id="lat" name="parametr" placeholder="latitude" value=""/>
+    <input type="text" id="lon" name="parametr" placeholder="longitude" value="" />  
+    <button onclick=alert(map.getClose())>Closest</button>
+  </form>
+</div>
+<div>
+  <h3>Аббревиатуры всех городов через пробел</h3>
+  <button onclick=alert(map.getAbbr())>abbreviations</button>
+</div>
